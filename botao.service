@@ -1,0 +1,14 @@
+[Unit]
+Description=Botao Service
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/pi-star
+
+User=pi-star
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi-star/botao_service.py & > /home/pi-star/botao.log
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
