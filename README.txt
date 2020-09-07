@@ -16,6 +16,7 @@ Pra quê serve?
 
 Ligações físicas:
 #################
+Exemplo: (https://github.com/mlbraga82/botao_pi-star/wiki)
 Testado no Raspbery Pi Zero
 
                  10k        SW
