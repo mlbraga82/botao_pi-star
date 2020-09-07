@@ -38,3 +38,5 @@ Requisitos:
   sudo systemctl enable botao.service
   sudo systemctl start botao.service
   sudo systemctl status botao.service
+
+Se tudo funcionou corretamente não é necessário mais nenhuma intervenção. Seu hotspot pode reiniciar que quando retornar irá executar o serviço botao.service de forma automática.
