@@ -3,8 +3,6 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
-#GPIO.setup(10, GPIO.IN)
-#GPIO.setmode(GPIO.BOARD) # Use physical pin numbering
 GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 prev_input=0
 print ("Entrando no modo loop...")
