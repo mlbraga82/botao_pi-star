@@ -8,7 +8,7 @@ Quando?
 
 Como funciona?
 ##############
-  O programa é um script python que monitra o pino GPIO 10 que estará ligado a um botão físico, quando este botão é pressionado um script é acionado que irá identificar nos arquivos de LOG do pi-star qual o último TG que foi acionado e executará os comandos de drop QSO e Remove Static Group. Para isso é necessário que o hotspot esteja com o BM API cadastrado (verificar requisitos abaixo)
+  O programa é um script python que monitora o pino GPIO 10 que estará ligado a um botão físico, quando este botão é pressionado um script é acionado que irá identificar nos arquivos de LOG do pi-star qual o último TG que foi acionado e executará os comandos de drop QSO e Remove Static Group. Para isso é necessário que o hotspot esteja com o BM API cadastrado (verificar requisitos abaixo)
   
 Pra quê serve?
 ##############
