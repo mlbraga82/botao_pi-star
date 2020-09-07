@@ -7,7 +7,7 @@ WorkingDirectory=/home/pi-star
 
 User=pi-star
 Type=idle
-ExecStart=/usr/bin/python3 /home/pi-star/botao_service.py & > /home/pi-star/botao.log
+ExecStart=/usr/bin/python3 /home/pi-star/botao_service.py & > /dev/null
 Restart=always
 
 [Install]
