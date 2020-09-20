@@ -2,7 +2,14 @@ import os
 dir_log = '/var/log/pi-star/'
 log_files=os.walk(dir_log)
 lista= list(log_files)[0]
-last_log=lista[0]+lista[2][0]
+arquivo=lista[2][0]
+i=1
+while not arquivo.startswith('MMDVM'):
+        arquivo=lista[2][i]
+        i=i+1
+#last_log=lista[0]+lista[2][0]
+last_log=lista[0]+arquivo
+
 print(last_log)
 file=open(last_log,'r')
 content=file.readlines()
