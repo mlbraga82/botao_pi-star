@@ -18,12 +18,16 @@
 
 Exemplo: (https://github.com/mlbraga82/botao_pi-star/wiki)
 Testado no Raspbery Pi Zero
-```
-                 10k        SW
-3.3V   o------/\/\/\/\-----/ __----
-                                   |
-GPIO10 o---------------------------
-```
+
+
+![image5](https://user-images.githubusercontent.com/39124251/121824290-7de5ed00-cc81-11eb-8f5c-4178614d11be.png)
+
+![image4](https://user-images.githubusercontent.com/39124251/121824065-b389d680-cc7f-11eb-905a-af5b3d0cc9f1.png)
+![image1](https://user-images.githubusercontent.com/39124251/121823827-08c4e880-cc7e-11eb-892a-244421520215.png)
+![image2](https://user-images.githubusercontent.com/39124251/121823858-40cc2b80-cc7e-11eb-821b-bdde9d886fba.png)
+![image3](https://user-images.githubusercontent.com/39124251/121823886-75d87e00-cc7e-11eb-91b9-7b19c5b7a200.png)
+
+
 # Requisitos:
 
 1) ativar o serviço Brandmeister API no hotspot
