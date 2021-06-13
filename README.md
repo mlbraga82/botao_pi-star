@@ -40,7 +40,7 @@ Testado no Raspbery Pi Zero
 ```
   pip3 install RPi.GPIO
   ```
-4) Colocar os arquivos last_tg.py e botao_service.py no diretório /home/pi-star/
+4) Colocar os arquivos [last_tg.py](https://github.com/mlbraga82/botao_pi-star/raw/master/last_tg.py) e [botao_service.py](https://github.com/mlbraga82/botao_pi-star/raw/master/botao.service) no diretório /home/pi-star/
 5) Colocar aquivo em botao.service em /lib/systemd/system/
 6) Ativar o serviço usando os comandos
 ```
