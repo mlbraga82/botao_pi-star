@@ -1,6 +1,6 @@
 # O que é?
 
-  Programa para criação de um serviço para realizar as funções de Drop Call e Remove Static Group usando um botão físico inserido no hotspot do pi-star.
+  Programa para criação de um serviço para realizar as funções de **Drop Call** e **Remove Static Group** usando um botão físico inserido no hotspot do pi-star.
 
 # Quando?
 
@@ -12,7 +12,7 @@
   
 # Pra quê serve?
 
-  Nas redes DMR é comum (em alguns Talkgroups) os usuários não deixarem um intervalo entre um cambio e outro, impedindo um operador de sair do grupo acionando o TG 4000 (disconnect). Para impedir que o usuário "fique preso" ao TG, é possível usar os comandos da Brandmeister para realizar o DROP QSO e Remove TG para sair de grupos estáticos. Este programa não substitui o TG 4000 (Disconnect) para TG dinâmicos (aqueles que você acessa usando o PTT), porém este programa dará a liberdade para acionar o TG 4000 do seu rádio mesmo que os usuários do TG ocupado estejam ainda transmitindo. Basta apertar o botão aguardar o contato ser interrompido e transmitir o TG4000 para desconectar.
+  Nas redes DMR é comum (em alguns Talkgroups) os usuários não deixarem um intervalo entre um cambio e outro, impedindo um operador de sair do grupo acionando o TG 4000 (disconnect). Para impedir que o usuário "fique preso" ao TG, é possível usar os comandos da Brandmeister para realizar o **DROP QSO** e **Remove TG** para sair de grupos estáticos. Este programa não substitui o TG 4000 (Disconnect) para TG dinâmicos (aqueles que você acessa usando o PTT), porém este programa dará a liberdade para acionar o TG 4000 do seu rádio mesmo que os usuários do TG ocupado estejam ainda transmitindo. Basta apertar o botão aguardar o contato ser interrompido e transmitir o TG4000 para desconectar.
 
 # Ligações físicas:
 
