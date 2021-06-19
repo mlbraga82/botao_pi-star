@@ -47,7 +47,7 @@ git clone https://github.com/mlbraga82/botao_pi-star
 cd botao_pi-star
 cp *.py /home/pi-star/
 ```
-5) Colocar aquivo em botao.service em /lib/systemd/system/
+5) Colocar aquivo em [botao.service](https://raw.githubusercontent.com/mlbraga82/botao_pi-star/master/botao.service) em /lib/systemd/system/
 ```
 sudo cp botao.service /lib/systemd/system
 ```
