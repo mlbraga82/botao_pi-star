@@ -41,12 +41,16 @@ Testado no Raspbery Pi Zero
   pip3 install RPi.GPIO
   ```
 4) Colocar os arquivos [last_tg.py](https://github.com/mlbraga82/botao_pi-star/raw/master/last_tg.py) e [botao_service.py](https://github.com/mlbraga82/botao_pi-star/raw/master/botao.service) no diretório /home/pi-star/
+Para baixar os arquivos executar o comando:
+```
+git clone https://github.com/mlbraga82/botao_pi-star
+```
 5) Colocar aquivo em botao.service em /lib/systemd/system/
 6) Ativar o serviço usando os comandos
 ```
-  sudo systemctl daemon-reload
-  sudo systemctl enable botao.service
-  sudo systemctl start botao.service
-  sudo systemctl status botao.service
+sudo systemctl daemon-reload
+sudo systemctl enable botao.service
+sudo systemctl start botao.service
+sudo systemctl status botao.service
 ```
 Se tudo funcionou corretamente não é necessário mais nenhuma intervenção. Seu hotspot pode reiniciar normalmente. Quando retornar irá executar o serviço botao.service de forma automática.
