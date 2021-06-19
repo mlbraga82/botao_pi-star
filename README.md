@@ -44,8 +44,13 @@ Testado no Raspbery Pi Zero
 Para baixar os arquivos executar o comando:
 ```
 git clone https://github.com/mlbraga82/botao_pi-star
+cd botao_pi-star
+cp *.py /home/pi-star/
 ```
 5) Colocar aquivo em botao.service em /lib/systemd/system/
+```
+sudo cp botao.service /lib/systemd/system
+```
 6) Ativar o serviço usando os comandos
 ```
 sudo systemctl daemon-reload
